@@ -3,13 +3,9 @@
 Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
 """
 
-def result(multiple_number_one: int, multiple_number_two: int, natural_numbers: int):
+def result(multiple_number_one: int, multiple_number_two: int, natural_numbers: int) -> int:
     """
     Функция получает на вход значения и находит сумму кратных чисел
-    :param multiple_number_one: - кратное число № 1
-    :param multiple_number_two: - кратное число № 2
-    :param natural_numbers: - натуральное число
-    :return: сумму кратных чисел меньше натурального числа
     """
     sum_number = 0
 
